@@ -1,0 +1,145 @@
+
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #E8D8C4; /* كريمي فاتح */
+    }
+    
+    .hero-section {
+        background: linear-gradient(135deg, #561C24 0%, #6D2932 100%);  
+        color: white;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .profile-img {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        border: 5px solid #E8D8C4; 
+        margin-bottom: 30px;
+        object-fit: cover;
+    }
+    
+    .hero-section h1 {
+        font-size: 3rem;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    
+    .hero-section p {
+        font-size: 1.3rem;
+        margin-bottom: 30px;
+    }
+    
+    .social-links a {
+        color: #E8D8C4;  
+        font-size: 2rem;
+        margin: 0 15px;
+        transition: transform 0.3s;
+    }
+    
+    .social-links a:hover {
+        transform: scale(1.2);
+        color: #C7B7A3;  
+    }
+    
+    .navbar-dark {
+        background-color: #561C24 !important;  
+    }
+    
+    footer {
+        background-color: #561C24; 
+        color: #E8D8C4;   
+        padding: 20px 0;
+        text-align: center;
+        margin-top: 50px;
+    }
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #E8D8C4;    
+}
+
+.page-header {
+    background: linear-gradient(135deg, #561C24 0%, #6D2932 100%);   
+    color: white;
+    padding: 100px 0 50px;
+    text-align: center;
+}
+
+.contact-card {
+    transition: transform 0.3s;
+    cursor: pointer;
+    background-color: white;
+    border: 2px solid #C7B7A3;
+}
+
+.contact-card:hover {
+    transform: translateY(-5px);
+    border-color: #6D2932;      
+    box-shadow: 0 10px 20px rgba(86, 28, 36, 0.2);
+}
+
+.contact-icon {
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+footer {
+    background-color: #561C24;    
+    color: #E8D8C4;    
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 50px;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #E8D8C4;    
+}
+
+.page-header {
+    background: linear-gradient(135deg, #561C24 0%, #6D2932 100%);   
+    color: white;
+    padding: 100px 0 50px;
+    text-align: center;
+}
+
+.skill-card {
+    transition: transform 0.3s;
+    height: 100%;
+    background-color: white;
+    border: 2px solid #C7B7A3; 
+}
+
+.skill-card:hover {
+    transform: translateY(-10px);
+    border-color: #6D2932; 
+    box-shadow: 0 15px 30px rgba(86, 28, 36, 0.15);   
+}
+
+.skill-icon {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #561C24;  
+}
+
+.progress {
+    height: 25px;
+    border-radius: 10px;
+    background-color: #C7B7A3;      
+}
+
+.progress-bar {
+    background-color: #561C24;     
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #561C24;    
+    color: #E8D8C4;    
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 50px;
+}
